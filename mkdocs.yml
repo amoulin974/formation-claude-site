@@ -1,0 +1,68 @@
+site_name: Développer avec Claude
+site_description: Formation à Claude Code pour des enseignants en informatique
+site_author: Antoine Moulin
+site_url: https://amoulin974.github.io/formation-claude-site/
+repo_url: https://github.com/amoulin974/formation-claude-site
+repo_name: formation-claude-site
+edit_uri: edit/main/docs/
+docs_dir: docs
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clair
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Accueil: index.md
+  - Séance 1:
+      - Présentation: seance-1/index.md
+  - Séance 2:
+      - Présentation: seance-2/index.md
+  - Séance 3:
+      - Présentation: seance-3/index.md
+  - Ressources:
+      - Prérequis et installation: ressources/prerequis.md
