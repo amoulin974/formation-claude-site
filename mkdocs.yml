@@ -55,11 +55,18 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.keys
 
 nav:
   - Accueil: index.md
   - Séance 1:
       - Présentation: seance-1/index.md
+      - Ce qu'est un LLM: seance-1/llm.md
+      - Du chat à l'agent: seance-1/chat-agent.md
+      - Panorama des outils: seance-1/panorama.md
+      - "TP 1 : premier bug": seance-1/tp-premier-bug.md
+      - CLAUDE.md et permissions: seance-1/claude-md-permissions.md
+      - Travail intersession: seance-1/intersession.md
   - Séance 2:
       - Présentation: seance-2/index.md
   - Séance 3:

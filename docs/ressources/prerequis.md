@@ -9,4 +9,4 @@
 - [ ] Compte GitHub
 - [ ] VS Code et l'extension Dev Containers installés
 - [ ] Docker installé et démarré (ou Codespaces à défaut)
-- [ ] Dépôt d'exercices cloné, Dev Container ouvert, tests lancés une fois
+- [ ] [Dépôt d'exercices](https://github.com/amoulin974/formation-claude-exercices) cloné, Dev Container ouvert, `make test` lancé une fois
