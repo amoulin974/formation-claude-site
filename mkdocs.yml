@@ -69,7 +69,17 @@ nav:
       - Travail intersession: seance-1/intersession.md
   - Séance 2:
       - Présentation: seance-2/index.md
+      - Méthode de travail: seance-2/methode.md
+      - "TP 2 : phase finale en TDD": seance-2/tp-tdd.md
+      - Pièges et prompting: seance-2/pieges.md
+      - Commandes et skills: seance-2/skills.md
+      - Travail intersession: seance-2/intersession.md
   - Séance 3:
       - Présentation: seance-3/index.md
+      - Extensions: seance-3/extensions.md
+      - Un agent en cent lignes: seance-3/agent-api.md
+      - Parallélisation et revue: seance-3/parallele-revue.md
+      - Atelier pédagogique: seance-3/atelier-pedagogique.md
+      - Synthèse: seance-3/synthese.md
   - Ressources:
       - Prérequis et installation: ressources/prerequis.md
